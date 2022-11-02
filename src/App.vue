@@ -24,10 +24,10 @@ export default {
       nama: "adit",
       products: [
         {id:1, model: "pc", price: 10000},
-        {id:2, model: "pc", price: 20000},
-        {id:3, model: "pc", price: 30000},
-        {id:4, model: "pc", price: 40000},
-        {id:5, model: "pc", price: 50000},
+        {id:2, model: "exmaple2", price: 20000},
+        {id:3, model: "exmaple3", price: 30000},
+        {id:4, model: "exmaple4", price: 40000},
+        {id:5, model: "exmaple4", price: 50000},
       ]
     }
   }

@@ -1,6 +1,7 @@
 <template>
-  <h1>welcome {{name}} !</h1>
-  <button v-on:click="changeName">change name</button>
+  <a v-bind:href="url">Go To Link</a><br>
+  <input type="text" v-model="nama">
+  {{nama}}
 </template>
 
 <script>
@@ -10,12 +11,8 @@ export default {
   name: 'App',
   data() {
     return {
-      name: "aditya"
-    }
-  },
-  methods: {
-    changeName(){
-      this.name = "sujarwo tejo"
+      url: "https://www.google.com",
+      nama: "adit"
     }
   }
 }

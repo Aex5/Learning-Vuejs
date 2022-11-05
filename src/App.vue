@@ -1,9 +1,17 @@
 <script>
+import Header from '@/components/Header.vue'
+
+
 export default {
   name: "App",
+  components: {
+    Header
+  },
+
   data() {
     return {
       cari: "",
+      data: "ini adalah text via props app.vue",
       url: "https://www.google.com",
       nama: "sujarwo tejo",
       products: [
@@ -33,6 +41,8 @@ export default {
 </script>
 
 <template>
+  <Header text="ini adalah text via props dari app.vue"/>
+
   <a v-bind:href="url">Go To Link</a><br />
   <input type="text" v-model="cari" placeholder="search"/>
   {{ nama }} <br />
